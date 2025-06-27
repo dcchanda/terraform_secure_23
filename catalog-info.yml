@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terraform_secure_23
+  description: |
+    Terraform-based secure infrastructure automation with GitHub Actions.
+    Provision and destroy infrastructure.
+  tags:
+    - terraform
+    - infrastructure
+    - github-actions
+  annotations:
+    github.com/project-slug: dcchanda/terraform_secure_23
+    backstage.io/techdocs-ref: dir:.
+    # Enables GitHub Actions plugin integration
+    github.com/actions: dcchanda/terraform_secure_23
+spec:
+  type: service
+  lifecycle: experimental
+  owner: dev-team
+
